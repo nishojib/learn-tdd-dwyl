@@ -5,13 +5,15 @@
   "main": "change.js",
   "scripts": {
     "test": "node test.js",
-    "cover": "istanbul cover test.js"
+    "cover": "istanbul cover test.js",
+    "doc": "jsdoc change.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "istanbul": "^0.4.5",
+    "jsdoc": "^3.6.10",
     "qunit-tap": "^1.5.1",
     "qunitjs": "^2.4.1"
   }
